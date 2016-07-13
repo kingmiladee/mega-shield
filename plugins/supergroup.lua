@@ -18,17 +18,18 @@ local function check_member_super(cb_extra, success, result)
         set_owner = member_id ,
         settings = {
           set_name = string.gsub(msg.to.title, '_', ' '),
-		  lock_arabic = 'no',
-		  lock_link = "no",
-          flood = 'yes',
-		  lock_spam = 'yes',
-		  lock_sticker = 'no',
-		  member = 'no',
-		  public = 'no',
-		  lock_rtl = 'no',
-		  lock_tgservice = 'yes',
-		  lock_contacts = 'no',
-		  strict = 'no'
+		  lock_arabic = 'قفل نیس',
+		  lock_link = "قفل نیس",
+          flood = 'قفل نیس',
+		  lock_spam = 'قفل نیس',
+		  lock_sticker = 'قفل نیس',
+		  member = 'قفل نیس',
+		  public = 'قفل نیس',
+		  lock_rtl = 'قفل نیس',
+		  lock_tgservice = 'قفل نیس',
+		  lock_contacts = 'قفل نیس',
+		  strict = 'قفل نیس'
+		  popteam
         }
       }
       save_data(_config.moderation.data, data)
